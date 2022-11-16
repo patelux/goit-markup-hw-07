@@ -1,0 +1,157 @@
+footer {
+    height: 252px;
+    margin: 0 auto;
+    background-color: var(--hero-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.address-container {
+    margin-right: 70px;
+    width: 231px;
+    height: 132px;
+}
+
+.footer-logo,
+.footer-accent {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer-logo {
+    color: var(--basic-white);
+}
+
+.footer-accent {
+    color: var(--accent-color);
+}
+
+.footer-address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.address:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-link,
+.mail-link,
+.phone-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    transition: color var(--transition-func), text-shadow var(--transition-func);
+}
+
+.address-link {
+    color: var(--basic-white);
+}
+
+.mail-link,
+.phone-link {
+    color: var(--footer-contacts);
+}
+
+.address-link:hover,
+.mail-link:hover,
+.phone-link:hover,
+.address-link:focus,
+.mail-link:focus,
+.phone-link:focus {
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* соціальні мережі у футері */
+.social-container {
+    margin-right: 93px;
+    width: 206px;
+    padding: 0;
+}
+
+.social-title,
+.send-title {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer .icon-social-link {
+    color: #FFF;
+}
+
+/* Конейнер з формой ввода и отправки */
+.send-container {
+    max-width: 570px;
+    padding: 0;
+}
+
+.send-box {
+
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.send-box-input {
+    width: 358px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    background-color: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    padding-left: 16px;
+
+    &:focus {
+    color: #757575;
+}
+}
+
+
+.send-btn {
+    width: 200px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}

@@ -1,0 +1,11 @@
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #757575;
+    background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url('../images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

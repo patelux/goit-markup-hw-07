@@ -1,0 +1,23 @@
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--hero-background);
+    text-align: center;
+}
+
+.hero__container {
+    width: 696px;
+}
+
+.hero__title {
+    margin-bottom: 30px;
+    color: var(--basic-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero__btn {
+    padding: 10px 32px;
+}

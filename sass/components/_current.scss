@@ -1,0 +1,13 @@
+.current {
+    color: var(--accent-color);
+    &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: var(--accent-color);
+}
+}

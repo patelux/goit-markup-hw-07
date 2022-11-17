@@ -304,6 +304,11 @@ body {
   padding: 10px 32px;
 }
 
+.features {
+  padding-top: 94px;
+  padding-bottom: 0;
+}
+
 .features-list {
   display: flex;
   gap: 30px;
@@ -501,8 +506,33 @@ footer .container {
   margin-bottom: 9px;
 }
 
-.address-link,
-.mail-link,
+.address-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--basic-white);
+  transition: color var(--transition-func), text-shadow var(--transition-func);
+}
+.address-link:hover, .address-link:focus {
+  color: var(--accent-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mail-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  transition: color var(--transition-func), text-shadow var(--transition-func);
+}
+.mail-link:hover, .mail-link:focus {
+  color: var(--accent-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .phone-link {
   text-decoration: none;
   font-weight: 400;
@@ -511,24 +541,14 @@ footer .container {
   letter-spacing: 0.03em;
   transition: color var(--transition-func), text-shadow var(--transition-func);
 }
-
-.address-link {
-  color: var(--basic-white);
+.phone-link:hover, .phone-link:focus {
+  color: var(--accent-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .mail-link,
 .phone-link {
   color: var(--footer-contacts);
-}
-
-.address-link:hover,
-.mail-link:hover,
-.phone-link:hover,
-.address-link:focus,
-.mail-link:focus,
-.phone-link:focus {
-  color: var(--accent-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* соціальні мережі у футері */
